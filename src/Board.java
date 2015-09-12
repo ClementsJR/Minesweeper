@@ -52,7 +52,7 @@ public class Board {
 	}
 	
 	public void setFlag(int row, int col) {
-		if(tiles[row][col].isFlagged())
+		if(tiles[row][col].isFlagged() || !tiles[row][col].isCovered())
 			return;
 		
 		tiles[row][col].flag();
