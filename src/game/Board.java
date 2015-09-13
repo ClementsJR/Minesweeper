@@ -1,3 +1,14 @@
+package game;
+
+// Minesweeper
+// Board.java
+//
+// John Clements
+// jrclements@ualr.edu
+// https://github.com/ClementsJR
+//
+// 2015-09-12
+
 public class Board {
 	private Tile[][] tiles;
 	private int mines;

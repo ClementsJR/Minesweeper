@@ -1,3 +1,16 @@
+package game;
+
+// Minesweeper
+// Minesweeper.java
+//
+// A Java implementation of the classic Windows bored-at-the-office game.
+//
+// John Clements
+// jrclements@ualr.edu
+// https://github.com/ClementsJR
+//
+// 2015-09-12
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
@@ -17,6 +30,7 @@ public class Minesweeper{
 		
 		try{
 			window.setIconImage(ImageIO.read(new File("img/mine.png")));
+			window.setTitle("Minesweeper");
 		} catch (IOException x) {
 			window.setTitle("Minesweeper");
 		}
@@ -28,6 +42,7 @@ public class Minesweeper{
 		window.setVisible(true);
 	}
 	
+	//
 	protected static void makeGameSettings() {
 		JPanel gameSettings = new JPanel();
 		gameSettings.setLayout(new BoxLayout(gameSettings, BoxLayout.PAGE_AXIS));

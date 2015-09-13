@@ -1,3 +1,14 @@
+package game;
+
+// Minesweeper
+// Tile.java
+//
+// John Clements
+// jrclements@ualr.edu
+// https://github.com/ClementsJR
+//
+// 2015-09-12
+
 public class Tile {
 	public final static int MINE = -1;
 	public final static int EMPTY = 0;

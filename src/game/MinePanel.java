@@ -1,3 +1,14 @@
+package game;
+
+// Minesweeper
+// MinePanel.java
+//
+// John Clements
+// jrclements@ualr.edu
+// https://github.com/ClementsJR
+//
+// 2015-09-12
+
 import java.io.*;
 import java.awt.*;
 import java.awt.image.*;
