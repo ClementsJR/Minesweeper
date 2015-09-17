@@ -3,7 +3,7 @@ Make sure they're in the same directory!
 
 Controls:
 
-Left click to prob a tile.
+Left click to probe a tile.
 Right click to place/remove a flag.
 
 Enjoy!
